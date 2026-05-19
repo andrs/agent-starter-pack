@@ -15,24 +15,23 @@
   </picture>
 </a> [![Launch in Cloud Shell](https://img.shields.io/badge/Launch-in_Cloud_Shell-white)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Feliasecchig%2Fasp-open-in-cloud-shell&cloudshell_print=open-in-cs) ![Stars](https://img.shields.io/github/stars/GoogleCloudPlatform/agent-starter-pack?color=yellow)
 
-> ## 📣 Agents CLI is here
+> ## ⚠️ Agent Starter Pack is in maintenance mode — switch to `agents-cli`
 >
-> **[`agents-cli`](https://github.com/google/agents-cli)** is the next evolution of Agent Starter Pack — the unified CLI and skills for building, evaluating, deploying, and operating agents on Google Cloud's Agent Platform. It works with Claude Code, Gemini CLI, Codex, and any other coding agent.
+> **Active development has moved to [`agents-cli`](https://github.com/google/agents-cli)**, the next evolution of Agent Starter Pack. ASP will continue to receive critical fixes only — **no new features, no new templates, no new deployment targets.** New projects should start with `agents-cli`; existing projects should migrate.
 >
 > ```bash
 > uvx google-agents-cli setup
 > ```
 >
-> **Already on ASP? Migration takes minutes** — your agent code, tests, Terraform, and CI/CD all carry over with no rewrites.
+> **Migration takes minutes** — your agent code, tests, Terraform, and CI/CD carry over with no rewrites.
 >
 > **What you gain:**
 > - 🛠️ **Unified CLI** in place of the Makefile — `run`, `deploy`, `eval run`, `eval compare`, `playground`, `lint`, and more
 > - 🧠 **Bundled coding-agent skills** that turn Claude Code, Gemini CLI, or Codex into an ADK expert
 > - 🔁 **End-to-end lifecycle tooling**: scaffold → eval → deploy → publish → observe
+> - ☁️ **First-class support** for Google Cloud's Agent Platform
 >
 > **→ [Migration guide](https://google.github.io/agents-cli/reference/from-agent-starter-pack/)** &nbsp;•&nbsp; [Get started](https://google.github.io/agents-cli/) &nbsp;•&nbsp; [Docs](https://google.github.io/agents-cli/) &nbsp;•&nbsp; [GitHub](https://github.com/google/agents-cli) &nbsp;•&nbsp; [PyPI](https://pypi.org/project/google-agents-cli/)
->
-> **Agent Starter Pack will no longer receive new features.** All future development happens in `agents-cli`.
 
 ---
 

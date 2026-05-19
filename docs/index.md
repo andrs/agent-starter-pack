@@ -11,14 +11,14 @@ hero:
     alt: Agent Starter Pack Logo
   actions:
     - theme: brand
-      text: Get Started Guide
+      text: Switch to agents-cli →
+      link: https://google.github.io/agents-cli/
+    - theme: alt
+      text: Migration Guide
+      link: https://google.github.io/agents-cli/reference/from-agent-starter-pack/
+    - theme: alt
+      text: Get Started (ASP)
       link: /guide/getting-started
-    - theme: alt
-      text: Development Guide
-      link: /guide/development-guide
-    - theme: alt
-      text: Watch Demo Video
-      link: https://www.youtube.com/watch?v=mtJMYgJkTt8
 
 features:
   - icon: ⚡️
